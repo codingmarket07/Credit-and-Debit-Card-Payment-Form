@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Credit and Debit Card Payment Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="payment_form_wrapper">
+        <div class="payment_form">
+            <div class="back_card">
+                <div class="stripe"></div>
+                <div class="input_field">
+                  <label>CVC/CVV</label>
+                  <input type="text" name="cvc-cvv" class="input"
+                  placeholder="XXX" maxlength="3" 
+                  >
+                </div>
+            </div>
+            <div class="front_card">
+                <div class="pay_sec">
+                    <div class="pay">
+                      <p>PAYING: <span>$257</span></p>
+                    </div>
+                    <div class="visa_img">
+                      <img src="visa.png" alt="visa">
+                    </div>
+                </div>
+                <div class="form">
+                  <div class="input_top">
+                      <label>CARD NUMBER</label>
+                      <div class="input_grp">
+                        <div class="input_field">
+                          <input type="text" name="cardNumber" class="input"
+                          placeholder="XXXX" maxlength="4" 
+                          >
+                        </div>
+                        <div class="input_field">
+                          <input type="text" name="cardNumber" class="input"
+                          placeholder="XXXX" maxlength="4" 
+                          >
+                        </div>
+                        <div class="input_field">
+                          <input type="text" name="cardNumber" class="input"
+                          placeholder="XXXX" maxlength="4" 
+                          >
+                        </div>
+                        <div class="input_field">
+                          <input type="text" name="cardNumber" class="input"
+                          placeholder="XXXX" maxlength="4" 
+                          >
+                        </div>
+                      </div>
+                  </div>
+                  <div class="input_bottom">
+                      <div class="input_left">
+                        <div class="input_field">
+                          <label>CARD HOLDER</label>
+                          <input type="text" name="cvc-cvv" class="input"
+                          placeholder="CODING MARKET" 
+                          >
+                        </div>
+                      </div>
+                      <div class="input_right">
+                          <label>EXPRIATION DATE</label>
+                          <div class="input_grp">
+                            <div class="input_field">
+                              <input type="text" name="month" class="input"
+                              placeholder="XX" maxlength="2" 
+                              >
+                            </div>
+                            <div class="input_field">
+                              <input type="text" name="date" class="input"
+                              placeholder="XX" maxlength="2" 
+                              >
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            COMPLETE ORDER
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
